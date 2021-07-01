@@ -1,4 +1,4 @@
-FROM ruby:2.6.0-alpine
+FROM ruby:2.7-alpine
 
 RUN apk add --update --no-cache ruby-dev build-base libxml2-dev libxslt-dev
 RUN gem install bundler:2.1.1
