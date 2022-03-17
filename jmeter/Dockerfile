@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.15
 
 ARG JMETER_VERSION="5.1"
 
