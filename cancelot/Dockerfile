@@ -6,7 +6,7 @@ ENV GOBIN=/go/bin
 RUN go get -d -v ./...
 RUN go install /go/src/main.go
 
-FROM alpine:latest
+FROM alpine:3.15.4
 
 RUN apk add --no-cache ca-certificates
 
