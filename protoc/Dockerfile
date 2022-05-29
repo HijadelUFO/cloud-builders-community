@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:10.12-slim
 
 ARG VERS=3.12.4
 ARG ARCH=linux-x86_64
